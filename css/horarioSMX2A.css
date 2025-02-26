@@ -1,0 +1,91 @@
+/* Títulos y subtítulos */
+
+h1, p {
+  text-align: center;
+}
+
+/* Tabla con los horarios */
+
+table.uno {
+  table-layout: fixed;
+  border-collapse: collapse;
+  text-align: center;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+/* Tabla profesores */
+
+table.dos{
+  table-layout: fixed;
+  border-collapse: collapse;
+  text-align: left;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+/* Propiedades de las  celdas de las dos tablas */
+
+table.uno td {
+  border: 2px solid gray;
+  padding: 10px;
+  font-family:'Times New Roman', Times, serif;
+}
+
+table.dos td {
+  border: 2px solid gray;
+  padding-left: 7px;
+  padding: 10px 0px 10px 20px;
+  font-family:'Times New Roman', Times, serif;
+}
+
+/* Cambia el ancho de la columna "hora" del horario */
+
+table.uno th:nth-child(1) {
+  width: 10%;
+}
+
+/* Aplica un estilo a los encabezados de las tablas */
+
+tr th {
+  border: 2px solid blue;
+  background-color: rgb(85, 223, 241);
+  padding: 5px;
+}
+
+/* Marcaje de las celdas de cada módulo con su color */
+
+td.m07 {
+  background-color: lightyellow;
+}
+
+td.m12 {
+  background-color: lightcoral;
+  color: white;
+}
+
+td.m06 {
+  background-color: rgb(150, 233, 150);
+}
+
+td.m10 {
+  background-color: blue;
+}
+
+td.m04 {
+  background-color: orange;
+}
+
+td.m08 {
+  background-color: aqua;
+}
+
+td.tutoria {
+  background-color: rgb(161, 155, 155);
+}
+
+/* Marcaje de zebra en la tabla de los profesores */
+
+table.dos tr:nth-child(odd) {
+  background-color: rgb(238, 238, 115);
+}

@@ -1,0 +1,30 @@
+html {
+    background-color: blue;
+}
+
+h1, p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: white;
+}
+
+thead th {
+    border-bottom: 3px solid gray;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+thead th:first-child {
+    width: 10%;
+}
+
+td {
+    padding: 5px 5px 0px 5px;
+}
